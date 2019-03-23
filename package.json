@@ -1,0 +1,21 @@
+{
+  "name": "@dailynodemodule/bull",
+  "version": "1.0.0",
+  "description": "This project is a sample project for bull",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dailynodemodule/bull"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Zachary Boyd <zachary@dailynodemodule.com>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "bull": "^3.7.0",
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
